@@ -75,4 +75,31 @@ hr {
   align-items: center;
 }
 
-/* .menu {} */
+.menu {
+  display: flex;
+  width: 100%;
+  gap: 2vw;
+  align-items: center;
+  margin: 1vw auto;
+  flex-wrap: wrap;
+  flex-flow: column;
+}
+
+.menu table {
+  text-align: center;
+  border: 0.4vw solid black;
+  width: 80vw;
+  font-size: 1.3vw;
+}
+
+.menu table tr th {
+  border-bottom: 0.2vw dotted grey;
+  /* border-left: 0.3vw dotted gray;
+  border-right: 0.3vw dotted gray; */
+}
+
+.menu table tr td {
+  /* border-left: 0.3vw dotted gray;
+  border-right: 0.3vw dotted gray;  */
+  border-bottom: 0.2vw dotted gray;
+}
