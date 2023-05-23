@@ -102,4 +102,38 @@ hr {
   /* border-left: 0.3vw dotted gray;
   border-right: 0.3vw dotted gray;  */
   border-bottom: 0.2vw dotted gray;
+  /* display:flex; */
+  /* flex-flow: column; */
+  font-size: 1.8vw;
+}
+.menu table tr td img {
+  height: 15vw;
+  border-radius: 1vw;
+}
+.promo-event{
+  display: flex;
+  width: 100%;
+  gap: 2vw;
+  align-items: center;
+  margin: 1vw auto;
+  flex-wrap: wrap;
+  flex-flow: column;
+}
+.promo-event p {
+  font-size: 1.7vw;
+  text-align: center;
+  width: 43vw;
+}
+.about-the-author{
+  display: flex;
+  width: 100%;
+  gap: 2vw;
+  align-items: center;
+  margin: 1vw auto;
+  flex-wrap: wrap;
+  flex-flow: column;
+}
+.about-the-author img{
+  width: 30vw;
+  border-radius: 50vw;
 }
